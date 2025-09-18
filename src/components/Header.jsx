@@ -13,18 +13,14 @@ const Header = ({
     <div className="text-center mb-12">
       <div className="flex items-center justify-center mb-6">
         <div className={`text-6xl font-bold mr-4 ${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>
-          krya
+          Krya Solutions
         </div>
         <div className="w-5 h-5 bg-orange-500 rounded-full animate-pulse"></div>
       </div>
       
-      <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-400 bg-clip-text text-transparent mb-6">
+      <h1 className={`text-5xl font-bold mb-6 ${darkMode ? 'text-blue-400' : 'text-blue-600'}`}>
         Cyber Resilience Assessment
       </h1>
-      
-      <p className="text-xl text-gray-400 mb-8">
-        Comprehensive Security Maturity Evaluation Framework
-      </p>
       
       <div className="flex justify-center gap-4 mb-8">
         <button 

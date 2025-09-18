@@ -56,6 +56,6 @@ export const assessmentData = {
 export const options = [
   { value: 'not-implemented', label: 'No/Not Implemented', score: 0, color: '#ef4444' },
   { value: 'partially', label: 'Yes/Partially Implemented', score: 50, color: '#f59e0b' },
-  { value: 'fully', label: 'Fully Implemented', score: 100, color: '#10b981' },
-  { value: 'nextgen', label: 'Implemented + NextGen & Automated', score: 120, color: '#3b82f6' }
+  { value: 'fully', label: 'Fully Implemented', score: 80, color: '#10b981' },
+  { value: 'nextgen', label: 'Implemented + NextGen & Automated', score: 100, color: '#3b82f6' }
 ];

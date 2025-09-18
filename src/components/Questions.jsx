@@ -113,15 +113,6 @@ const Questions = ({
                                     </div>
                                   </div>
                                 </div>
-                                <div className="text-right">
-                                  <div 
-                                    className="text-lg font-bold"
-                                    style={{ color: option.color }}
-                                  >
-                                    {option.score}
-                                  </div>
-                                  <div className="text-xs text-gray-500">points</div>
-                                </div>
                               </div>
                             </button>
                           ))}
